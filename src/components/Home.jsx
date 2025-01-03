@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import mern from "../assets/mern.jpg"
 
 function Home() {
   return (
@@ -6,11 +7,7 @@ function Home() {
     <div className="flex flex-col items-center">
    
          {/* Image */}
-         <img 
-          src="./src/assets/mern.jpg" 
-          alt="Your Name" 
-          className="w-32 h-32 rounded-full shadow-lg mb-6" 
-        />
+        <img src={mern} alt="MERN Stack" className="w-48 h-48 rounded-full mb-4" />
       <h1 className="text-5xl md:text-6xl font-extrabold mb-6">Welcome to My Portfolio</h1>
       <p className="text-lg md:text-xl mb-8 max-w-2xl mx-auto">
         I am a passionate developer specializing in building stunning and functional web applications. Explore my projects and get in touch!

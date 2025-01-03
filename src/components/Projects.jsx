@@ -1,25 +1,28 @@
 import React from 'react'
+import onlinepr from "../assets/onlinepr.jpg"
+import hostelpr from "../assets/hostelpr.jpg"
+import storepr from "../assets/storepr.jpg"
 
 function Projects() {
     const projects = [
         { 
           title: 'Online Event PlatForm ManageMent', 
           description: 'Implement tools for providing event schedules, and offering event analytics to support event planning.', 
-          image: './src/assets/onlinepr.jpg', // Add the project image here
+          image: onlinepr, // Add the project image here
           link: 'https://event-management-rajesh.netlify.app', // Add the GitHub link or live project link here
           techStack: ['React', 'TailwindCSS', 'Node.js'] // Add technologies used
         },
         { 
           title: 'Hostel ManageMent System', 
           description: 'Develop a comprehensive system for managing hostel operations, including room allocation, maintenance requests, and billing.', 
-          image: './src/assets/hostelpr.jpg',
+          image: hostelpr,
           link: 'https://hostel-managebyrajesh.netlify.app',
           techStack: ['React', 'TailwindCSS', 'Node.js']
         },
         { 
           title: 'Add To Cart(FakeAPPStore)', 
           description: 'An e-commerce platform with advanced features.', 
-          image: './src/assets/storepr.jpg',
+          image:storepr ,
           link: 'https://superlative-rolypoly-59e671.netlify.app/',
           techStack: ['React', 'TailwindCSS']
         }

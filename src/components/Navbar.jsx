@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
+
 function Navbar() {
   return (
     <nav className="bg-gray-800 text-white p-4">
@@ -20,9 +21,8 @@ function Navbar() {
           <a href="https://linkedin.com/in/rajesh-baskar2211" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="hover:text-gray-400" size={24} />
           </a>
-          <a href="./src/assets/resume.jpg" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400">
-             CV
-          </a>
+         
+         
         </div>
       </div>
     </nav>
